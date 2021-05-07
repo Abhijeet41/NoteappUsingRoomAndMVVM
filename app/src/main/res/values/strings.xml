@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Note app (RoomDb)</string>
+    <string name="my_notes">My Notes</string>
+    <string name="search_notes">Search notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_subtitle">Note Subtitle</string>
+    <string name="type_note_here">Type note here..</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="pick_color">Pick Color</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_url">Add Url</string>
+    <string name="enter_url">Enter Url</string>
+    <string name="add">ADD</string>
+    <string name="cancle_dialog">CANCLE</string>
+    <string name="enter_valid_url">Enter Valid Url</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="delete_note_dialog">Are you sure you want to delete this note?</string>
+    <string name="cancle">cancle</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="select_image">Select Image from </string>
+
+</resources>
