@@ -7,8 +7,8 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,15 +19,11 @@ import android.provider.MediaStore;
 import android.provider.Settings;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.abhi41.noteapproomdb.R;
@@ -35,7 +31,6 @@ import com.abhi41.noteapproomdb.UI.adapter.NotesAdapter;
 import com.abhi41.noteapproomdb.UI.entities.Note;
 import com.abhi41.noteapproomdb.UI.listeners.NotesListener;
 import com.abhi41.noteapproomdb.UI.util.Dialogs;
-import com.abhi41.noteapproomdb.UI.util.LogOutTimerUtil;
 import com.abhi41.noteapproomdb.UI.util.MyApplication;
 import com.abhi41.noteapproomdb.UI.util.PrintMessage;
 import com.abhi41.noteapproomdb.UI.util.RealPathUtil;
@@ -47,18 +42,20 @@ import com.karumi.dexter.listener.PermissionDeniedResponse;
 import com.karumi.dexter.listener.PermissionGrantedResponse;
 import com.karumi.dexter.listener.PermissionRequest;
 import com.karumi.dexter.listener.single.PermissionListener;
+import com.razorpay.Checkout;
+import com.razorpay.PaymentResultListener;
+
+import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;
 
-public class MainActivity extends AppCompatActivity implements NotesListener, Dialogs.AlertDialogListener, MyApplication.LogoutListener {
+public class MainActivity extends AppCompatActivity implements NotesListener, Dialogs.AlertDialogListener, MyApplication.LogoutListener, PaymentResultListener {
 
     ActivityMainBinding binding;
     private static final String TAG = "MainActivity";
@@ -80,6 +77,8 @@ public class MainActivity extends AppCompatActivity implements NotesListener, Di
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        Checkout.preload(getApplicationContext());
+
         mainViewModel = new MainViewModel(getApplication());
         dialogs = new Dialogs(MainActivity.this);
 
@@ -126,6 +125,12 @@ public class MainActivity extends AppCompatActivity implements NotesListener, Di
             @Override
             public void onClick(View view) {
                 showAddUrlDialog();
+            }
+        });
+        binding.ivDonate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startPayment();
             }
         });
 
@@ -190,8 +195,8 @@ public class MainActivity extends AppCompatActivity implements NotesListener, Di
 
                     } else if (requestCode == REQUEST_CODE_ADD_NOTE) {
 
-                        noteList.add(0, notes.get(0));
-                        notesAdapter.notifyItemInserted(0);
+                        noteList.add(0, notes.get(0)); // adding list on 0th position
+                        notesAdapter.notifyItemInserted(0); //notify adapter item inserted at 0th position
                         binding.notesRecyclerview.smoothScrollToPosition(0);
 
                     } else if (requestCode == REQUEST_CODE_UPDATE_NOTE) {
@@ -389,5 +394,67 @@ public class MainActivity extends AppCompatActivity implements NotesListener, Di
     @Override
     public void onSessionLogout() {
         Log.d(TAG, "onSessionLogout: ");
+    }
+
+    public void startPayment() {
+
+        /**
+         * Instantiate Checkout
+         */
+        Checkout checkout = new Checkout();
+        checkout.setKeyID("rzp_test_XKH7DtCqkT78Yh");
+        /**
+         * Set your logo here
+         */
+        checkout.setImage(R.drawable.razorpay);
+
+        /**
+         * Reference to current activity
+         */
+        final Activity activity = this;
+
+        /**
+         * Pass your payment options to the Razorpay Checkout as a JSONObject
+         */
+        try {
+            JSONObject options = new JSONObject();
+
+            options.put("name", "NIIT");
+            options.put("description", "Reference No. #123456");
+            options.put("image", "https://s3.amazonaws.com/rzp-mobile/images/rzp.png");
+          //  options.put("order_id", "order_DBJOWzybf0sJbb");//from response of step 3.
+            options.put("theme.color", "#3399cc");
+            options.put("currency", "INR");
+            options.put("amount", "50000");//pass amount in currency subunits //500*100
+            options.put("prefill.email", "abhijeetmule46@gmail.com");
+            options.put("prefill.contact","8355942271");
+            JSONObject retryObj = new JSONObject();
+            retryObj.put("enabled", true);
+            retryObj.put("max_count", 4);
+            options.put("retry", retryObj);
+
+            checkout.open(activity, options);
+
+        } catch(Exception e) {
+            Log.e(TAG, "Error in starting Razorpay Checkout", e);
+        }
+    }
+
+    @Override
+    public void onPaymentSuccess(String razorpayPaymentId) {
+        Toast.makeText(this, "Payment Successful", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "onPaymentSuccess: "+razorpayPaymentId);
+    }
+
+    @Override
+    public void onPaymentError(int i, String response) {
+        Toast.makeText(this, response, Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "onPaymentError: "+response);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Checkout.clearUserData(this);
     }
 }

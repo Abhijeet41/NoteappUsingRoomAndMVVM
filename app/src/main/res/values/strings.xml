@@ -1,5 +1,5 @@
-<resources>
-    <string name="app_name">Note app (RoomDb)</string>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Note app</string>
     <string name="my_notes">My Notes</string>
     <string name="search_notes">Search notes</string>
     <string name="note_title">Note Title</string>
@@ -18,5 +18,9 @@
     <string name="cancle">cancle</string>
     <string name="menu_item_delete">Delete</string>
     <string name="select_image">Select Image from </string>
+    <string name="partnerKey">1wHgdf53a2a854365482c98d996f1a4d8ac8b</string>
+
+
+
 
 </resources>

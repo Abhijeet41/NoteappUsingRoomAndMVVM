@@ -26,6 +26,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/iv_donate"
+            android:layout_width="@dimen/_22sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textMyNotes"
+            app:srcCompat="@drawable/ic_donate"
+            app:tint="@color/white" />
+
 
         <LinearLayout
             android:id="@+id/layoutSearch"
@@ -99,6 +109,7 @@
                 android:background="@drawable/ic_add_outline"
                 android:layout_width="@dimen/_23sdp"
                 android:layout_height="@dimen/_23sdp"
+                android:backgroundTint="@color/white"
                 app:tint="@color/colorIcons" />
 
             <ImageView
@@ -107,6 +118,7 @@
                 android:layout_marginStart="@dimen/_15sdp"
                 android:layout_width="@dimen/_23sdp"
                 android:layout_height="@dimen/_23sdp"
+                android:backgroundTint="@color/white"
                 app:tint="@color/colorIcons" />
 
             <ImageView
@@ -115,6 +127,7 @@
                 android:layout_marginStart="@dimen/_15sdp"
                 android:layout_width="@dimen/_23sdp"
                 android:layout_height="@dimen/_23sdp"
+                android:backgroundTint="@color/white"
                 app:tint="@color/colorIcons" />
 
 
@@ -132,6 +145,8 @@
             app:layout_constraintBottom_toTopOf="@+id/layoutQuickActions"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/layoutQuickActions" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

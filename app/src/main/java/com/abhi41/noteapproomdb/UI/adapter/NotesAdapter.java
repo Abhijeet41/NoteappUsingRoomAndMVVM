@@ -9,6 +9,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
+import android.media.ThumbnailUtils;
 import android.os.Handler;
 import android.os.Looper;
 import android.view.ActionMode;
@@ -202,14 +203,14 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.NoteViewHold
                 //imageNote.setImageBitmap(BitmapFactory.decodeFile(note.getImagePath()));
                 try {
                     Bitmap circularBitmap1 = ImageConverter.getRoundedCornerBitmap(BitmapFactory.decodeFile(note.getImagePath()), 90);
-
+                    Bitmap thumbnail = ThumbnailUtils.extractThumbnail(BitmapFactory.decodeFile(note.getImagePath()),200,200);
+                    //load thumbnail insed of bitmap to improve performance of recyclerview
                     Glide.with(contecxt)
-                            .load(circularBitmap1)
+                            .load(thumbnail)
                             .centerCrop()
                             .apply(new RequestOptions().override(200, 200))
                             .into(imageNote);
 
-                    //imageNote.setImageBitmap(circularBitmap1);
                     imageNote.setVisibility(View.VISIBLE);
                 } catch (Exception e) {
                     e.printStackTrace();

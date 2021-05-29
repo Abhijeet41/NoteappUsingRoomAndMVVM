@@ -16,7 +16,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+       AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
     }
 
     public static void userSessionStart() {
@@ -32,7 +32,7 @@ public class MyApplication extends Application {
                     Log.d("App", "Session Destroyed");
                 }
             }
-        },  1000 * 60  );//1000 * 60 * 2
+        },  1000 * 60  );//1000 * 60
     }
 
     public static void resetSession() {

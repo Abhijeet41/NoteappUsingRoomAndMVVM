@@ -13,6 +13,146 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/Extract/DynamicForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/AppController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/Interface/UserInteractionListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/utilities/RealPathUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/CustomNotepadActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/DeletedCaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/FullScreenImage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/FullScreenImageActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/MenuActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/MultipleImages/MultipleImagesActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/PdfScanner/ImageScannerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/activity/PdfScanner/PdfViewerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/AcceptedCaseListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/AssignedCaseListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/DownloadingCaseListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/FormDetailFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/HistoryCaseListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/MainMenuFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/SendingCasesListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/UserProfileFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/dynamicForm/CustomWidget/DrawSignaturePad.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/app/src/main/java/com/resoftech/res/view/fragment/dynamicForm/DynamicForm.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/camera/src/main/java/com/example/basiccameraapplication/camera1/TakePhotoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/camera/src/main/java/com/example/basiccameraapplication/model/CameraModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../Abhijeet/PAMAC/PAMAC NEW/camera/src/main/java/com/example/basiccameraapplication/util/RealPathUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../../Android temp github/Multiple RecyclerView Items/app/build.gradle">
           <value>
             <set />
@@ -148,7 +288,52 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/src/main/java/com/abhi41/dagger2withmayank/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/src/main/java/com/abhi41/dagger2withmayank/component/MobileComponent.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/src/main/java/com/abhi41/dagger2withmayank/model/Battery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/src/main/java/com/abhi41/dagger2withmayank/model/Charger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/src/main/java/com/abhi41/dagger2withmayank/model/Mobile.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/app/src/main/java/com/abhi41/dagger2withmayank/model/Proccessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Dagger2 youtube mayank/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/proguard-rules.pro">
           <value>
             <set />
           </value>
@@ -229,6 +414,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/abhi41/noteapproomdb/UI/ui/CreateNoteActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/abhi41/noteapproomdb/UI/ui/LoginPage.java">
           <value>
             <set />
           </value>
@@ -373,6 +563,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_login_page.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
           <value>
             <set />
@@ -444,6 +639,116 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../../MVVM Tutorial/TV Show App/app/src/main/java/com/abhi41/tvshowappmvvm/activity/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/activity/DashBoard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/activity/ScannerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/adapter/DashBoardAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/roomdb/dao/AssetDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/roomdb/database/AssetDatabase.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/roomdb/entity/Asset.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/utils/DialogBuilders.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/viewmodel/DashBoardViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/abhi41/manageasset/viewmodel/ScannerViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/pamac/manageasset/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/pamac/manageasset/activity/DashBoard.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/pamac/manageasset/activity/ScannerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/pamac/manageasset/adapter/DashBoardAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/pamac/manageasset/roomdb/dao/AssetDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/java/com/pamac/manageasset/viewmodel/DashBoardViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/res/layout/activity_dash_board.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/res/layout/single_layout_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../PAMAC Projects/Asset Inventory/app/src/main/res/values/colors.xml">
           <value>
             <set />
           </value>
